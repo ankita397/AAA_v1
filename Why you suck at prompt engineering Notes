@@ -1,0 +1,180 @@
+Prompt Engineering Tips Video + FREE Templates (scroll down to access) 
+See: why you suck at prompt engineering (and how to fix it)
+
+#Role
+You are an experienced email classification assistant who accurately categorizes emails based on their content and potential business impact.
+
+#Task
+Classify the following email into "Ignore", "Opportunity", or "Needs Attention" labels using the following step-by-step process:
+﻿﻿﻿Analyze the email content for keywords and phrases that indicate the email's importance and relevance to the business.
+﻿﻿﻿Determine if the email requires a response or action based on its content.
+﻿﻿﻿Assign the appropriate label based on the analysis: "Ignore" for irrelevant emails, "Opportunity" for emails that present potential business opportunities, or
+"Needs Attention" for emails that require a timely response or action.
+Email:((emailContent}}
+
+# Specifics
+﻿﻿This task is critical to the success of our business, so please provide a thorough analysis of the email.
+﻿﻿If the email contains personally identifiable information (PII), ensure that it is handled in accordance with our data privacy policies.
+﻿﻿Your accurate categorization of this email is greatly appreciated and contributes to the efficiency of our operations.
+Our company provides Al-powered solutions to businesses across various industries. We receive a high volume of emails from potential clients through our website's contact form. Your role in classifying these emails is essential for our sales team to prioritise their efforts and respond to inquiries in a timely manner.
+
+By accurately identifying opportunities and emails that need attention, you directly contribute to the growth and success of our company.
+
+# Examples
+
+## Example 1
+Email: "Dear Sir/Madam, I am interested in learning more about your Al solutions for the healthcare industry. Could you please provide me with more information about your products and pricing? Thank you, John Doe"
+Label: Opportunity
+
+## Example 2
+regards, Jane Smith"
+Label: Ignore
+Email: "To whom it may concern, I am writing to inquire about the job openings at your company. I have attached my resume for your consideration. Best
+
+## Example 3
+Email: "Hello, I am experiencing technical difficulties with one of your Al products. I need assistance resolving this issue as soon as possible. Please contact me at your earliest convenience. Thank you, Mike Johnson" Label: Needs Attention
+
+# Notes
+﻿﻿Provide only the email classification label as your response.
+﻿﻿Do not include any personal information from the email in your response.
+If you are unsure about the appropriate classification, err on the side of caution and assign the "Needs Attention" label
+Key Slides
+
+
+Free Full Template Structure for Optimised Prompts
+Role
+Define a clear and advantageous role for the LLM. This helps the LLM focus and perform better by understanding its specific function within the prompt.
+Example: You are an expert marketing consultant specialising in social media strategy for small businesses.
+Placeholder: You are an expert [insert area of expertise] specialising in [insert specific task].
+Task
+State the specific task you want the LLM to perform. Start with a clear verb and be descriptive while remaining concise.
+Example: Generate three engaging and informative tweets promoting the benefits of using AI for social media marketing for small businesses.
+Placeholder: [Verb] [specific output] about [topic] for [target audience].
+Chain of Thought
+Break down the task into step-by-step instructions, especially for complex tasks. This helps guide the LLM's reasoning process.
+Example:
+
+
+Start with a captivating hook about the challenges of social media marketing for small businesses.
+Introduce AI as a solution to these challenges.
+Highlight three key benefits of using AI, such as saving time, increasing reach, and improving content quality.
+End with a call to action, encouraging small businesses to learn more about AI for social media marketing.
+Placeholder:
+
+
+[Step 1]
+[Step 2]
+[Step 3]
+
+Specifics
+Include additional bullet points that provide essential details for the task execution. This section clarifies instructions and reinforces specific requirements.
+Example:
+Each tweet should be under 280 characters.
+Use a friendly and conversational tone.
+Include relevant hashtags.
+Placeholder:
+[Specific requirement 1]
+[Specific requirement 2]
+Emotion Prompt
+Integrate phrases that express the importance and value of the task. By emphasising the significance of the task, you can encourage the LLM to engage in more thorough and deliberate processing.
+Example:
+This task is critical to helping small businesses succeed in the competitive world of social media.
+I truly appreciate your expertise and insights in crafting these tweets.
+Placeholder:
+[Phrase highlighting importance]
+[Phrase expressing appreciation]
+Context
+Provide background information about the business, the system the LLM is operating within, and the impact of the task. This helps the LLM understand the broader context and purpose of its actions.
+Example:
+
+
+Our company helps small businesses leverage the power of AI for their marketing efforts.
+These tweets will be used in a social media campaign targeting small business owners interested in growing their online presence.
+By creating compelling tweets, you'll contribute to our mission of empowering small businesses to thrive in the digital age.
+Placeholder:
+
+
+[Information about the business]
+[Information about the system]
+[Impact of the task]
+
+Examples (Few-Shot Prompting)
+Provide a few input-output pairs to demonstrate the desired output format and style. Even one example can significantly improve the LLM's performance. Aim for 3-5 well-crafted examples.
+Example:
+
+ Input: Write a tweet highlighting the time-saving benefits of AI for social media.
+
+ Output: Tired of spending hours scheduling social media posts? Let AI do the heavy lifting! Free up your time to focus on what matters most - growing your business. #AI #socialmediamarketing
+
+
+Placeholder:
+
+ Input: [Example input]
+
+ Output: [Example output]
+  
+Notes
+Utilise this section to reiterate crucial points, add formatting instructions, or include any final reminders. This reinforces key instructions and helps fine-tune the output.
+Example:
+Remember to keep each tweet concise and under 280 characters.
+Please ensure all tweets are written in a positive and encouraging tone.
+If unsure about a hashtag, err on the side of caution and don't include it.
+Placeholder:
+[Reminder 1]
+[Reminder 2]
+Markdown Formatting
+Structure your prompt using markdown headings (H1, H2, H3) to enhance readability for both you and the LLM. While there's no definitive research on its direct impact, markdown formatting provides a clear structure, which may improve the LLM's understanding.
+Example:
+Use H1 headings (# Heading) for the main components: Role, Task, Specifics, Context, Examples, Notes.
+Use H2 or H3 headings (## Subheading, ### Sub-subheading) to break down sections further, like within the Context or Examples.
+
+Additional Considerations
+Context Length and Costs: For high-volume tasks, keep the prompt concise to minimise token usage and costs.
+Choice of Model: Start with the cheapest and fastest model that meets your requirements.
+Temperature: Use a temperature of 0 for tasks requiring consistent output. For creative tasks, experiment with higher temperatures (0.5-1).
+Positive Reinforcement: Frame instructions and feedback positively.
+Personification: Consider assigning a persona to the role, particularly someone known for expertise in the relevant field.
+By implementing these techniques and tailoring them to your specific needs, you can significantly enhance the quality and effectiveness of your LLM interactions.
+
+
+Simplified Prompt Template
+Optimising the Simplified Prompt Template Structure with Markdown
+Applying markdown styling to the Simplified Prompt Template Structure can enhance its readability for both you and the LLM. While there is no definitive research on the direct impact of markdown formatting on LLM performance, a clear structure may improve the LLM's understanding. Here's how to apply markdown styling to the template:
+Prompt:
+Role
+You are an expert [insert area of expertise] specialising in [insert specific task].
+Task
+[Verb] [specific output] about [topic] for [target audience].
+Chain of Thought
+[Step 1]
+[Step 2]
+[Step 3]
+Specifics
+[Specific requirement 1]
+[Specific requirement 2]
+Emotion Prompt
+[Phrase highlighting importance]
+[Phrase expressing appreciation]
+Context
+[Information about the business]
+[Information about the system]
+[Impact of the task]
+Examples (Few-Shot Prompting)
+Example 1
+Input: [Example input]
+Output: [Example output]
+Example 2
+Input: [Example input]
+Output: [Example output]
+Notes
+[Reminder 1]
+[Reminder 2]
+Explanation of Changes:
+H1 Headings (# Heading): Used for the main prompt title and the main components: Role, Task, Chain of Thought, Specifics, Context, Examples, and Notes.
+H2 Headings (## Heading): Used to separate individual examples within the "Examples (Few-Shot Prompting)" section. This allows for better organisation when multiple examples are provided.
+Bold Text: Used for "Input" and "Output" under each example to further highlight these elements for the LLM.
+Additional Considerations:
+The number of examples provided under "Examples (Few-Shot Prompting)" can be adjusted based on the task complexity and the desired level of guidance for the LLM. Three to five examples are generally recommended.
+Remember to maintain clear and concise language throughout the prompt to avoid confusing the LLM.
+By implementing these markdown formatting suggestions, the Simplified Prompt Template Structure becomes more organised and readable, potentially enhancing the LLM's comprehension and leading to more accurate and effective outputs.
+
